@@ -8,12 +8,76 @@
 body {
     background-color: #000000;
     /* Pattern from https://www.heropatterns.com/ */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: "Roboto", sans-serif;
     color: #1e272e;
     color: #fff;
     font-size: 16px;
   }
 
+.logo__primary {    
+    color: white;
+    font-size: 28px;
+}
+
+.logo__secondary {
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 28px;
+}
+
+.header_logo {
+    padding: 24px 32px;
+    flex-direction: row;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.firt-view__container {
+    height: 98vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='1000' preserveAspectRatio='none' viewBox='0 0 1440 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='1000' x='0' y='0' fill='rgba(0%2c 115%2c 203%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c671.763C130.104%2c688.235%2c286.267%2c680.298%2c375.348%2c584.053C465.336%2c486.829%2c395.575%2c325.41%2c437.033%2c199.586C471.806%2c94.052%2c599.23%2c25.374%2c596.025%2c-85.695C592.793%2c-197.715%2c503.664%2c-289.187%2c420.755%2c-364.587C344.036%2c-434.358%2c244.711%2c-465.344%2c145.475%2c-495.441C45.387%2c-525.796%2c-54.3%2c-547.396%2c-158.65%2c-540.311C-284.943%2c-531.737%2c-429.519%2c-539.159%2c-519.655%2c-450.283C-610.36%2c-360.846%2c-611.902%2c-215.961%2c-616.696%2c-88.668C-621.118%2c28.739%2c-599.321%2c144.656%2c-546.003%2c249.351C-494.215%2c351.041%2c-409.122%2c426.33%2c-318.862%2c496.159C-220.906%2c571.942%2c-122.867%2c656.207%2c0%2c671.763' fill='%23004b84'%3e%3c/path%3e%3cpath d='M1440 1642.614C1559.791 1641.529 1675.377 1584.397 1763.223 1502.946 1843.884 1428.157 1872.083 1317.221 1904.353 1212.063 1932.907 1119.016 1953.9560000000001 1024.434 1939.608 928.167 1925.31 832.235 1873.511 750.865 1823.251 667.9110000000001 1763.141 568.698 1717.609 454.443 1617.295 396.188 1505.723 331.395 1370.549 307.972 1243.659 331.32500000000005 1109.9479999999999 355.933 987.501 428.05100000000004 896.299 528.88 803.984 630.94 719.175 760.961 731.033 898.066 742.572 1031.49 885.146 1107.419 956.155 1220.965 1015.2919999999999 1315.528 1028.909 1435.558 1112.993 1508.833 1203.616 1587.807 1319.799 1643.702 1440 1642.614' fill='%231399ff'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto {
+    font-size: 64px;
+    padding: 40px ;
+    padding-bottom: 16px;
+}
+
+.p {
+    padding: 16px 40px ;
+    font-size: 24px;
+    color: rgb(224, 224, 224);
+}
+
+.button__container {
+    padding: 40px;
+
+}
+
+.button {
+    padding: 16px 24px;
+    border-radius: 20px;
+    border: none;
+    color: #1f2041;
+    background-color: #ffc857;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #cea85b;
+}
+
+.button:active {
+    background-color: #a78a50;
+}
 a {
     color: white;
     text-decoration: none;
